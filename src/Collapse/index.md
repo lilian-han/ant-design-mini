@@ -20,12 +20,7 @@ toc: false
 
 ## 代码示例
 
-### 基础使用
 <code src='../../demo/pages/Collapse'></code>
-
-### 手风琴模式
-
-<code src='../../demo/pages/CollapseAccordion'></code>
 
 ## API
 

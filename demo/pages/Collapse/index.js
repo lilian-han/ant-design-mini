@@ -2,7 +2,7 @@ let index = 0;
 Page({
   data: {
     randomLine: 1,
-    name: ['item-1'],
+    name: ["item-1"],
   },
   onTap() {
     index += 1;
@@ -13,6 +13,11 @@ Page({
   },
   onChange(e) {
     my.showToast({
+      content: `当前展开的元素: ${e}`,
+    });
+  },
+  onChangeHandle(e) {
+    my.alert({
       content: `当前展开的元素: ${e}`,
     });
   },
