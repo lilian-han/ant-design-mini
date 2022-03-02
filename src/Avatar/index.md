@@ -19,8 +19,6 @@ toc: false
 
 ### 带有 name 和 desc
 
-<code src="../../demo/pages/AvatarDesc"></code>
-
 
 ## API
 

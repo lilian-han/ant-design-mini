@@ -1,6 +1,6 @@
 .demo-avatar-size {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 24rpx;
 }
 
@@ -10,9 +10,12 @@
   align-items: center;
   justify-content: flex-end;
 }
+.demo-avatar-size-container + .demo-avatar-size-container {
+  margin-left: 16rpx;
+}
 
-.demo-avatar-size-container text {
-  padding-top: 16rpx;
+.demo-avatar-txt {
+  padding: 0 16rpx 16rpx;
   font-size: 26rpx;
 }
 
