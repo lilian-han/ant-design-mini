@@ -6,7 +6,7 @@ module.exports = {
   contribute: (registry) => {
     // const logger = injector.get(Symbol.for('ILogger'));
     registry.hooks.onCreateDevServer(({ devServer }) => {
-      devServer.on('done', () => {
+      devServer.once('done', () => {
         fork(`${process.cwd()}/node_modules/dumi/bin/dumi.js`, ['dev', `${devServer.port}`]);
       });
     });

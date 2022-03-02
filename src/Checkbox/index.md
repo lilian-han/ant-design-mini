@@ -14,13 +14,8 @@ toc: false
 
 ## 代码示例
 
-### 基础使用
-
 <code src='../../demo/pages/Checkbox'></code>
 
-### 受控模式
-
-<code src='../../demo/pages/CheckboxControlled'></code>
 
 ## API
 

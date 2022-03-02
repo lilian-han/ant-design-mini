@@ -37,7 +37,6 @@
     "pages/Avatar/index",
     "pages/Loading/index",
     "pages/Checkbox/index",
-    "pages/CheckboxControlled/index",
     "pages/CheckboxGroup/index",
     "pages/RadioGroup/index",
     "pages/Selector/index",
