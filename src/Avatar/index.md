@@ -13,12 +13,7 @@ toc: false
 
 ## 代码示例
 
-### 基本使用
-
 <code src="../../demo/pages/Avatar"></code>
-
-### 带有 name 和 desc
-
 
 ## API
 
