@@ -20,18 +20,21 @@ toc: false
 | 属性 | 类型 | 必填 | 默认值 | 说明 |
 | -----|-----|-----|-----|----- |
 | radius | boolean | 否 | false | 是否带圆角 |
-| header | `string` | 否 | - | 头部说明 |
-| footer | `string` | 否 | - | 底部说明 |
+| header | string | 否 | - | 头部说明 |
+| footer | string | 否 | - | 底部说明 |
 | className | string | 否 | - | 类名 |
 
 #### ListItem
 
 | 属性 | 类型 | 必填 | 默认值 | 说明 |
 | -----|-----|-----|-----|----- |
-| image | `string` | 否 | - | 左侧图片 |
+| image | string | 否 | - | 左侧图片 |
+| imageSize | `'small' | 'medium' | 'large'` | 否 | - | 左侧图片尺寸 |
+| title | string | 是 | - | 标题信息 |
+| brief | string | 是 | - | 第二行信息 |
 | arrow | `'right'` &verbar; `'up'` &verbar; `'down'` | 否 | - | 箭头方向，不传表示没有箭头 |
-| extra | `string` | 否 | - | 右侧额外内容 |
-| brief | `string` | 否 | - | 第二行信息 |
+| extra | string | 否 | - | 右侧额外内容 |
+| extraBrief | string | 否 | - | 右侧额外内容第二行 |
 | className | string | 否 | - | 类名 |
 
 
@@ -46,8 +49,10 @@ toc: false
 #### ListItem
 | 名称 | 说明 |
 | ----|----|
+| title | 标题内容插槽 |
 | brief | 下方简介内容插槽 |
 | extra | 右侧内容插槽 |
+| extra-brief | 右侧第二行内容插槽 |
 | image | 左侧图标插槽 |
 
 ### 事件
