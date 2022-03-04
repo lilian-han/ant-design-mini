@@ -22,6 +22,9 @@ toc: false
 #### Filter
 | 属性 | 类型 | 必填 | 默认值 | 说明 |
 | -----|-----|-----|-----|----- |
+| id | string | 否 | - | 表单元素 id |
+| name | string | 否 | - | 表单元素 name |
+| disabled | boolean | 否 | - | 是否禁用 |
 | className | string | 否 | - | 类名 |
 
 #### FilterItem
