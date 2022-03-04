@@ -8,7 +8,7 @@ export interface ICollapseItemProps extends IBaseProps {
   /**
    * @description 标题图标
    */
-  icon?:string;
+  icon?: string;
   /**
    * @description 标题栏内容
    */
@@ -24,7 +24,7 @@ export interface ICollapseItemProps extends IBaseProps {
   /**
    * @description 副标题
    */
-  brief?: boolean;
+  brief?: string;
   /**
    * @description 面板展开图标
    */

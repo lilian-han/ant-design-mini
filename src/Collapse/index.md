@@ -37,8 +37,13 @@ toc: false
 #### CollapseItem
 | 属性 | 类型 | 必填 | 默认值 | 说明 |
 | -----|-----|-----|-----|----- |
-| title | `string` | 否 | - | 标题栏内容 |
+| icon | string | 否 | - | icon 内容 |
+| title | string | 否 | - | 标题栏内容 |
 | name | string | 是 | - | 标识，必须唯一 |
+| disabled | boolean | 否 | false | 禁用状态 |
+| brief | string | 否 | - | 副标题 |
+| expandIcon | string | 否 | - | 面板展开图标 |
+| closeIcon | string | 否 | - | 面板收缩图标 |
 | className | string | 否 | - | 类名 |
 | uid | string | 是 | - | `必须全局唯一`，需与外部 Collapse 组件的 uid 一致  |
 
@@ -53,25 +58,26 @@ toc: false
 | 插槽名称 | 说明 |
 | -----|-----|
 | title | CollapseItem 组件标题插槽，当 title 属性存在时，插槽不生效 |
+| brief | CollapseItem 组件副标题插槽，当 brief 属性存在时，插槽不生效 |
 
 ### 样式类
 #### Collapse
 | 类名 | 说明 |
 | -----|-----|
-| amd-avatar | 整体样式 |
-| amd-avatar-src | 图片样式 |
-| amd-avatar-content | 头像描述样式 |
-| amd-avatar-name | name 样式 |
-| amd-avatar-desc | desc 样式 |
+| amd-collapse | 整体样式 |
 
 #### CollapseItem
 | 类名 | 说明 |
 | -----|-----|
-| amd-avatar | 整体样式 |
-| amd-avatar-src | 图片样式 |
-| amd-avatar-content | 头像描述样式 |
-| amd-avatar-name | name 样式 |
-| amd-avatar-desc | desc 样式 |
+| amd-collapse-item | 单个样式 |
+| amd-collapse-item-active | 激活状态下单个样式 |
+| amd-collapse-item-disabled | 禁用状态下单个样式 |
+| amd-collapse-item-title | 单个 title 样式 |
+| amd-collapse-item-icon | 单个 icon 样式 |
+| amd-collapse-item-line | 单个 line 样式 |
+| amd-collapse-item-brief-node | 单个 副标题 样式 |
+| amd-collapse-item-content-wrap | 单个 内容容器 样式 |
+| amd-collapse-item-content | 单个 内容 样式 |
 
 <style> 
 table th:first-of-type { width: 180px; } 
