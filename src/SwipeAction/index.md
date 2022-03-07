@@ -19,6 +19,8 @@ toc: false
 | -----|-----|-----|-----|----- |
 | autoClose | boolean | 否 | false | 点击按钮是是否会自动收起 |
 | disabled | boolean | 否 | false | 是否禁止操作 |
+| speed | number | 否 | 15 | 点击箭头右滑按钮的速度，单位ms，正数，数值越小越快，正常范围在1～100之间 |
+| extraInfo | unknown | 否 | {} | extraInfo是传给外部调用者的附加信息，点击按钮时拿到，作为执行点击按钮回调的入参 |
 | left | { text: string, type: 'default' &verbar; 'primary' &verbar; 'danger'; className: string } [] | 否 | - | 右滑漏出左侧操作区 |
 | right | { text: string, type: 'default' &verbar; 'primary' &verbar; 'danger'; className: string }[] | 否 | - | 左滑漏出右侧操作区 |
 | className | string | 否 | - | 类名 |
