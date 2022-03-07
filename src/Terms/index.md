@@ -26,6 +26,9 @@ toc: false
 | disabled | boolean | 否 | false | 是否禁用 |
 | mainButtonText | string | 是 | '同意' | 主按钮文本 |
 | addonButtonText | string | 否 |  | 辅助按钮文本 |
+| id | string | 否 | - | 表单元素 id |
+| name | string | 否 | - | 表单元素 name |
+| disabled | boolean | 否 | false | 是否禁用 |
 | className | string | 否 | - | 类名 |
 
 
@@ -35,6 +38,7 @@ toc: false
 | onChange | 点击 checkbox ，触发此回调 | ( v : boolean ) => void  |
 | onMainBtnTap | 点击主按钮，触发此回调 | () => void  |
 | onSubBtnTap | 点击辅助按钮，触发此回调 | () => void  |
+
 ### 插槽
 | 名称 | 说明 |
 | ----|----|
