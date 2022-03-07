@@ -41,7 +41,7 @@ toc: false
 #### Form
 | 属性 | 类型 | 必填 | 默认值 | 说明 |
 | -----|:-----:|:-----:|:-----:|----- |
-| Form | string | 是 | [] | 表单 uid |
+| form | string | 是 | [] | 表单 uid |
 | initialValues | Record<sring, any> | 否 | - | 表单初始值 |
 | className | string | 否 | - | 类名 |
 
@@ -55,10 +55,14 @@ toc: false
 #### FormItem
 | 属性 | 类型 | 必填 | 默认值 | 说明 |
 | -----|:-----:|:-----:|:-----:|----- |
-| Form | string | 是 | default | 表单 uid |
+| form | string | 是 | default | 表单 uid |
 | name | string | 是 | default | 字段 uid |
 | label | string | 否 | - | 字段名称 |
+| initialValue | string | 否 | "" | 字段初始值 |
+| position | `'horizontal'` &verbar; `'vertical'` | 否 | horizontal | 对齐方式 |
+| rules | array | 否 | [] | 输入规则 |
 | arrow | boolean | 否 | false | 表单项右侧箭头 |
+| disabled | boolean | 否 | false | 是否禁用 |
 | className | string | 否 | "" | 类名 |
 
 ### 事件
@@ -68,6 +72,7 @@ toc: false
 | -----|-----|-----|
 | onValuesChange | 字段更新，触发此回调 | ( changedFields: `Record<string, any>`, allFields: `Record<string, any>` ) => void |
 | onFinish | 表单提交后，触发此回调 | ( changedFields: `Record<string, any>`, allFields: `Record<string, any>` ) => void |
+| onFinishFailed | 表单提交失败后，触发此回调 | ( changedFields: `Record<string, any>`, allFields: `Record<string, any>` ) => void |
 
 ### 插槽
 

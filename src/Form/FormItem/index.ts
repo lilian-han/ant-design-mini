@@ -8,6 +8,8 @@ Component({
     initialValue: '',
     position: 'horizontal',
     required: false,
+    label: '',
+    arrow: false,
   },
   data: {
     // eslint-disable-next-line @typescript-eslint/no-empty-function
