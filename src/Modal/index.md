@@ -26,6 +26,7 @@ toc: false
 | duration | number | 否 | - | 过渡动画时长，单位毫秒 |
 | mainButtonText | string | 否 | '主操作' | 主按钮 |
 | addonButtonText | string | 否 | '辅助操作' | 辅助按钮，第二个按钮 |
+| closeType | 'dark' &verbar; 'light' | 否 | - | 关闭图标的颜色，不传时表示无关闭图标 |
 | maskClosable | boolean | 否 | true | 点击蒙层关闭 |
 | className | string | 否 | - | 类名 |
 
