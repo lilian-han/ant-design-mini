@@ -40,6 +40,7 @@ toc: false
 | onOk | 点击确定按钮，触发回调 | (v: (string &#124; number)[]) => void |
 | onDismiss | 点击取消按钮，触发回调 | () => void |
 | onChange | 选中项发生变化，触发回调 | (v: (string &#124; number)[]) => void |
+| onPickerChange | 发生滚动即触发， 与 onChange 点击 ok 后触发不同 | (value: PickerValue) => void |
 
 ## 插槽
 | 名称 | 说明 |
