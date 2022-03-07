@@ -18,6 +18,8 @@ toc: false
 | 属性 | 类型 | 必填 | 默认值 | 说明 |
 | -----|-----|-----|-----|----- |
 | text | string &verbar; number | 否 | - | 红点内容，为空时表示只显示红点；可以是数字，也可以是文字；如果是数字，超过 99 会自动变成 ... |
+| number | number | 否 | - | 数字内容，超过 99 会自动变成 99+ |
+| type | 'dot' &verbar; 'number' &verbar; 'text' &verbar; 'bubble' | 否 | dot | badge 类型 |
 | bubble | boolean | 否 | false | 是否为气泡形态(带箭头) |
 | placement | 'top-left' &verbar; 'top-right' | 否 | "top-right" | 相对于 children 所在访问，left-top(左上角) top-right(右上角) |
 | stroke | boolean | 否 | false | 是否有描边 |
