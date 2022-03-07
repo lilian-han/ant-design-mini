@@ -59,7 +59,7 @@ toc: false
 | amd-vtabs-bar-scroll-view |  左侧标题区域样式 |
 | amd-vtabs-bar-item-wrap | 左侧标题样式 |
 | amd-vtabs-bar-item | 左侧标题样式 |
-| `amd-vtabs-bar-item-active` | `标题激活状态样式` |
+| amd-vtabs-bar-item-active | 标题激活状态样式 |
 | amd-vtabs-bar-item-disabled | 标题禁用状态样式 |
 | amd-vtabs-bar-item-title | 标题内 title 的样式 |
 | amd-vtabs-bar-item-count | 标题内 badge 的样式 |
